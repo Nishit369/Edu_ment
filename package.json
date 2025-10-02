@@ -1,0 +1,22 @@
+{
+  "name": "ei",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "e1_b1": "tsc src/exercise_1/behavioral/examResult.ts && node src/exercise_1/behavioral/examResult.js",
+    "e1_b2": "tsc src/exercise_1/behavioral/observerExam.ts && node src/exercise_1/behavioral/observerExam.js",
+    "e1_c1": "tsc src/exercise_1/creational/question-paper.ts && node src/exercise_1/creational/question-paper.js",
+    "e1_c2": "tsc src/exercise_1/creational/role.ts && node src/exercise_1/creational/role.js",
+    "e1_s1": "tsc src/exercise_1/structural/adapterMarks.ts && node src/exercise_1/structural/adapterMarks.js",
+    "e1_s2":"tsc src/exercise_1/structural/add-ons.ts && node src/exercise_1/structural/add-ons.js",
+    "e2": "tsc src/exercise_2/classroomManager.ts && node src/exercise_2/classroomManager.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  }
+}
